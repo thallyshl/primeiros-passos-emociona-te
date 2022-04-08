@@ -245,16 +245,24 @@ footer {
         width: 100%;
         margin: auto;
     }
-    .h2-encontros, .p-encontros {
+    .h2-encontros {
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
+    .p-encontros {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin: auto;
+    }
     .encontros {
-        width: auto;
+        width: 100%;
         color: #F95738;
         padding: 1rem;
-        border-left: 1px solid #F95738;
+        border-bottom: 1px solid #F95738;
     }
     header {
         display: flex;
