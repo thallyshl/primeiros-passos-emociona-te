@@ -256,7 +256,16 @@ footer {
         padding: 1rem;
         border-left: 1px solid #F95738;
     }
-   
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 5px;
+        background-color: white;
+    
+    }
    
 
 }
