@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 100%;
+    color: white;
+    font-family:  'Sarala', sans-serif;
+    background: #F95738;
+    
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    background-color: white;
+
+}
+
+.logo {
+    width: 14rem;
+}
+
+nav {
+    display: flex;
+    gap: 32px;
+    padding: 0.8rem;
+    border-radius: 15px;
+    font-weight: bolder;
+}
+a {
+    color: #083D77;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+.content {
+    border-top: 0.4px solid #083D77;
+    display: flex;
+    text-align: center;
+    padding: 1.5rem;
+}
+#primeira-section {
+    width: 68%;
+}
+#segunda-section {
+    width: 32%;
+    background-color: white;
+    color: #083D77;
+    padding: 1.2rem;
+    border-radius: 15px;
+    font-family: "Century Gothic";
+    font-weight: bolder;
+}
+.div-white {
+    font-size: 20px;
+    padding-top: 16px;
+}
+#bio {
+    font-weight: 200;
+}
+
+#thay {
+    margin-top: 2rem;
+    border-radius: 50%;
+}
+
+.div-one {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+h1 {
+    font-family: "Century Gothic";
+    font-weight: bolder;
+    font-size: 40px;
+    color: white;
+}
+
+#call {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    color: white;
+}
+
+.button {
+    background-color: white;
+    width: 20rem;
+    height: 4rem;
+    font-size: 24px;
+    font-family: 'Sarala', sans-serif;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    color: #083D77;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(236, 214, 196, 0.53);
+}
+
+.div-two {
+    font-family: "Century Gothic";
+    font-weight: bolder;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+h3 {
+    border-top: 0.4px solid white;
+    padding-top: 1.5rem;
+    font-family:  'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.paragrath {
+    font-family: 'Sarala', sans-serif;
+    width: 40rem;
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+}
+.p-two {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+}
+
+#calendar {
+    display: flex;
+    background-color: white;
+
+}
+.encontros {
+    width: 25%;
+    color: #F95738;
+    padding: 1rem;
+    border-left: 1px solid #F95738;
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+}
+.bnt-final {
+    background-color: white;
+    width: 35rem;
+    height: 5rem;
+    font-size: 30px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: bolder;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    color: #083D77;
+    cursor: pointer;
+}
+.bnt-final:hover {
+    background-color: rgb(236, 214, 196, 0.53);
+}
+
+@media (max-width: 1400px) {
+    header {
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        padding: 5px;
+        background-color: white;
+    
+    }
+    .content {
+        display: block;
+        border-top: 0.4px solid #083D77;
+        text-align: center;
+        padding: 1.5rem;
+    }
+    #primeira-section {
+        width: auto;
+    }
+    #segunda-section {
+        width: 90%;
+        background-color: white;
+        color: #083D77;
+        padding: 1.2rem;
+        border-radius: 15px;
+        font-family: "Century Gothic";
+        font-weight: bolder;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
