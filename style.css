@@ -276,6 +276,7 @@ footer {
     }
     .bnt-final {
         background-color: white;
+        padding: 2%;
         width: 80%;
         margin: 5%;
         height: 6rem;
